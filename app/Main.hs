@@ -4,7 +4,7 @@
 module Main where
 
 import Parsing ( parseStartYear )
-import Path ( reldir )
+import Path ( reldir, Rel, Dir )
 
 import qualified Turtle hiding (switch)
 import Prelude hiding (putStrLn)

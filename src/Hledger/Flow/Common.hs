@@ -3,7 +3,7 @@
 
 module Hledger.Flow.Common where
 
-import Path (absfile, relfile)
+import Path (absfile, relfile, Rel, File, Abs)
 import qualified Path.IO as Path
 
 import qualified Turtle
